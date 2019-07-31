@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="139px" preserveAspectRatio="none" style="width:1065px;height:139px;" version="1.1" viewBox="0 0 1065 139" width="1065px" zoomAndPan="magnify"><defs/><g><!--entity _EditCardView--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="105" x="728.5" y="32"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="85" x="738.5" y="54.0059">EditCardView</text><!--entity _EditingView--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="84" x="426" y="32"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="64" x="436" y="54.0059">EditingView</text><!--entity _EditValidatedModal--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="127" x="381.5" y="94"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="107" x="391.5" y="116.0059">EditValidatedModal</text><!--entity _EvaluateCardView--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="136" x="848" y="32"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="858" y="54.0059">EvaluateCardView</text><!--entity _EvaluateValidatedModal--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="154" x="523" y="94"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="134" x="533" y="116.0059">EvaluateValidatedModal</text><!--entity _EvaluationView--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="105" x="524.5" y="32"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="85" x="534.5" y="54.0059">EvaluationView</text><!--entity _EventsPage--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="86" x="110" y="32"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="66" x="120" y="54.0059">EventsPage</text><!--entity _HomePage--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="90" x="6" y="32"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="70" x="16" y="54.0059">HomePage</text><!--entity _Login--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="56" x="998" y="32"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="36" x="1008" y="54.0059">Login</text><!--entity _MainHeader--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="96" x="733" y="94"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="76" x="743" y="116.0059">MainHeader</text><!--entity _NewEdit--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="72" x="210" y="32"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="52" x="220" y="54.0059">NewEdit</text><!--entity _NewEvaluation--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="116" x="296" y="32"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="96" x="306" y="54.0059">NewEvaluation</text><!--entity _PageHeader--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="88" x="229" y="94"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="68" x="239" y="116.0059">PageHeader</text><!--entity _PaperCardView--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="117" x="843.5" y="94"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="97" x="853.5" y="116.0059">PaperCardView</text><!--entity _Papers--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="65" x="974.5" y="94"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="45" x="984.5" y="116.0059">Papers</text><!--entity _TextView--><rect fill="#F8F8F8" height="34.4844" rx="3" ry="3" style="stroke: #000000; stroke-width: 0.5;" width="70" x="644" y="32"/><text fill="#000000" font-family="Tahoma, sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="50" x="654" y="54.0059">TextView</text><!--link _EditingView to _EditValidatedModal--><path d="M461.836,66.0789 C459.155,73.0734 455.977,81.3652 453.108,88.8499 " fill="none" id="_EditingView-_EditValidatedModal" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="451.181,93.8767,458.1375,86.9049,452.9708,89.208,450.6676,84.0412,451.181,93.8767" style="stroke: #000000; stroke-width: 0.5;"/><!--link _EvaluationView to _EvaluateValidatedModal--><path d="M583.164,66.0789 C585.845,73.0734 589.023,81.3652 591.892,88.8499 " fill="none" id="_EvaluationView-_EvaluateValidatedModal" style="stroke: #000000; stroke-width: 0.5;"/><polygon fill="#000000" points="593.819,93.8767,594.3324,84.0412,592.0292,89.208,586.8625,86.9049,593.819,93.8767" style="stroke: #000000; stroke-width: 0.5;"/><!--link _HomePage to _EventsPage--><path d="M96.0234,49 C98.8982,49 101.773,49 104.6478,49 " fill="none" id="_HomePage-_EventsPage" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="109.822,49,100.822,45,104.822,49,100.822,53,109.822,49" style="stroke: #000000; stroke-width: 1.0;"/><!--link _NewEdit to _EditingView--><path d="M267.635,31.9407 C276.008,26.355 285.981,20.854 296,18 C345.583,3.876 362.083,5.106 412,18 C421.26,20.392 430.623,24.679 438.973,29.3171 " fill="none" id="_NewEdit-_EditingView" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="443.5,31.9199,437.6925,23.9655,439.1657,29.4271,433.7041,30.9003,443.5,31.9199" style="stroke: #000000; stroke-width: 1.0;"/><!--link _NewEdit to _PageHeader--><path d="M253.236,66.0789 C256.444,73.2079 260.258,81.6846 263.676,89.2808 " fill="none" id="_NewEdit-_PageHeader" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="265.745,93.8767,265.6994,84.0279,263.6932,89.3171,258.404,87.3109,265.745,93.8767" style="stroke: #000000; stroke-width: 1.0;"/><!--link _NewEdit to _TextView--><path d="M267.635,31.9407 C276.008,26.355 285.981,20.854 296,18 C331.691,7.833 594.355,7.671 630,18 C638.167,20.367 646.279,24.546 653.484,29.0852 " fill="none" id="_NewEdit-_TextView" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="657.844,31.9447,652.51,23.6653,653.6624,29.2035,648.1241,30.3559,657.844,31.9447" style="stroke: #000000; stroke-width: 1.0;"/><!--link _NewEvaluation to _EvaluationView--><path d="M386.058,31.8848 C398.212,26.293 412.404,20.802 426,18 C462.565,10.463 473.54,9.974 510,18 C521.072,20.437 532.491,24.891 542.696,29.6772 " fill="none" id="_NewEvaluation-_EvaluationView" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="547.294,31.8935,540.9241,24.3819,542.7901,29.7221,537.4499,31.5881,547.294,31.8935" style="stroke: #000000; stroke-width: 1.0;"/><!--link _NewEvaluation to _PageHeader--><path d="M332.293,66.0789 C322.034,73.6787 309.706,82.8101 298.956,90.7735 " fill="none" id="_NewEvaluation-_PageHeader" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="294.766,93.8767,304.3791,91.7346,298.784,90.9009,299.6178,85.3058,294.766,93.8767" style="stroke: #000000; stroke-width: 1.0;"/><!--link _NewEvaluation to _TextView--><path d="M386.058,31.8848 C398.212,26.293 412.404,20.802 426,18 C470.4,8.848 586.458,5.383 630,18 C638.167,20.367 646.279,24.546 653.484,29.0852 " fill="none" id="_NewEvaluation-_TextView" style="stroke: #000000; stroke-width: 1.0;"/><polygon fill="#000000" points="657.844,31.9447,652.51,23.6653,653.6624,29.2035,648.1241,30.3559,657.844,31.9447" style="stroke: #000000; stroke-width: 1.0;"/><!--link _EditCardView to _EvaluateCardView--><!--link _EvaluateCardView to _Login--><!--link _EditCardView to _MainHeader--><!--link _MainHeader to _PaperCardView--><!--link _PaperCardView to _Papers--><script type="text/plantuml"><![CDATA[
+@startuml
+
+scale max 1920 width
+top to bottom direction
+
+skinparam nodesep 14
+skinparam ranksep 28
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+skinparam usecase {
+  borderThickness 0.5
+}
+
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+skinparam component {
+  borderThickness 1
+}
+
+
+rectangle "<b>EditCardView</b>" as _EditCardView
+rectangle "EditingView" as _EditingView
+rectangle "EditValidatedModal" as _EditValidatedModal
+rectangle "<b>EvaluateCardView</b>" as _EvaluateCardView
+rectangle "EvaluateValidatedModal" as _EvaluateValidatedModal
+rectangle "EvaluationView" as _EvaluationView
+rectangle "EventsPage" as _EventsPage
+rectangle "<b>HomePage</b>" as _HomePage
+rectangle "<b>Login</b>" as _Login
+rectangle "<b>MainHeader</b>" as _MainHeader
+rectangle "<b>NewEdit</b>" as _NewEdit
+rectangle "<b>NewEvaluation</b>" as _NewEvaluation
+rectangle "PageHeader" as _PageHeader
+rectangle "<b>PaperCardView</b>" as _PaperCardView
+rectangle "<b>Papers</b>" as _Papers
+rectangle "TextView" as _TextView
+
+
+_EditingView --> _EditValidatedModal
+_EvaluationView --> _EvaluateValidatedModal
+_HomePage -[thickness=1]> _EventsPage
+_NewEdit -[thickness=1]> _EditingView
+_NewEdit --[thickness=1]> _PageHeader
+_NewEdit -[thickness=1]> _TextView
+_NewEvaluation -[thickness=1]> _EvaluationView
+_NewEvaluation --[thickness=1]> _PageHeader
+_NewEvaluation -[thickness=1]> _TextView
+
+@enduml
+
+
+' View and edit on https://arkit.pro
+]]></script></g></svg>

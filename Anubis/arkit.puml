@@ -1,0 +1,64 @@
+@startuml
+
+scale max 1920 width
+top to bottom direction
+
+skinparam nodesep 14
+skinparam ranksep 28
+skinparam monochrome true
+skinparam shadowing false
+skinparam defaultFontName Tahoma
+skinparam defaultFontSize 12
+skinparam roundCorner 6
+skinparam dpi 150
+skinparam arrowColor black
+skinparam arrowThickness 0.5
+skinparam packageTitleAlignment left
+
+' oval
+skinparam usecase {
+  borderThickness 0.5
+}
+
+' rectangle
+skinparam rectangle {
+  borderThickness 0.5
+}
+
+' component
+skinparam component {
+  borderThickness 1
+}
+
+
+rectangle "<b>EditCardView</b>" as _EditCardView
+rectangle "EditingView" as _EditingView
+rectangle "EditValidatedModal" as _EditValidatedModal
+rectangle "<b>EvaluateCardView</b>" as _EvaluateCardView
+rectangle "EvaluateValidatedModal" as _EvaluateValidatedModal
+rectangle "EvaluationView" as _EvaluationView
+rectangle "EventsPage" as _EventsPage
+rectangle "<b>HomePage</b>" as _HomePage
+rectangle "<b>Login</b>" as _Login
+rectangle "<b>MainHeader</b>" as _MainHeader
+rectangle "<b>NewEdit</b>" as _NewEdit
+rectangle "<b>NewEvaluation</b>" as _NewEvaluation
+rectangle "PageHeader" as _PageHeader
+rectangle "<b>PaperCardView</b>" as _PaperCardView
+rectangle "<b>Papers</b>" as _Papers
+rectangle "TextView" as _TextView
+
+
+_EditingView --> _EditValidatedModal
+_EvaluationView --> _EvaluateValidatedModal
+_HomePage -[thickness=1]> _EventsPage
+_NewEdit -[thickness=1]> _EditingView
+_NewEdit --[thickness=1]> _PageHeader
+_NewEdit -[thickness=1]> _TextView
+_NewEvaluation -[thickness=1]> _EvaluationView
+_NewEvaluation --[thickness=1]> _PageHeader
+_NewEvaluation -[thickness=1]> _TextView
+
+@enduml
+
+' View and edit on https://arkit.pro

@@ -24,37 +24,34 @@ import {
 import { ScrollView } from 'react-native-gesture-handler';
 
 
+
 export default class EvaluateCardView extends Component {
 
    constructor(props) {
     super(props);
     this.state = {
-      //locked: this.props.locked,
       locked:false, 
       thumbValue: 0,
       minValue: 0,
       maxValue: 100, 
-      evalution: this.props.evalution,
-      question: this.props.question
+      question: this.props.question,
+      index:this.props.questionIndex
     };
   }
-componentDidUpdate(){ 
-  if (this.state.evalution != this.state.thumbValue/10){ 
-    this.setState ({evalution : this.state.thumbValue/10});
-  } 
+
+onSlideDone(){ 
+  this.props.onUpdateGrade(this.state.index, this.state.thumbValue/10)
 }
+
 onEndSlide(){ 
    this.props.changeLocked(false)
-   console.log('props end false card', this.props)
 }
 
 onStartSlide(){ 
   this.props.changeLocked(true)
-  console.log('props start true card', this.props)
- 
-  
 }
   render() {
+    const grade = this.props.evaluation; 
     return (
       <Card>
         <CardItem>
@@ -81,6 +78,7 @@ onStartSlide(){
               minimumTrackTintColor="#000000"
               maximumTrackTintColor="#000000"
               onValueChange={val => this.setState({ thumbValue: val})}
+              onSlidingComplete={this.onSlideDone.bind(this)}
               onTouchStart={this.onStartSlide.bind(this)}
               onTouchEnd={this.onEndSlide.bind(this)}
             />  

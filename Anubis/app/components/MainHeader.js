@@ -5,6 +5,7 @@ import React, { Component } from "react";
 import {
   Image,
   Alert,
+  TouchableOpacity
 } from "react-native";
 
 import {
@@ -18,10 +19,15 @@ import {
   Title,
 } from "native-base";
 
-import {DrawerAction} from 'react-navigation'
+import {DrawerActions} from 'react-navigation'
 
 export default class MainHeader extends Component {
-
+  toggleDrawer = () => {
+    //this.props.navigation.navigate('DrawerToggle')
+    console.log('pressed')
+   this.props.navigation.dispatch(DrawerActions.toggleDrawer());
+   // console.log(this.props.navigation.navigate('DrawerClose'))
+  }
 
   render() {
     return (
@@ -29,26 +35,35 @@ export default class MainHeader extends Component {
          <Left>
          <Button
             transparent
-            onPress={() => {
-              Alert.alert('You tapped the button!');
-            }}
+          //  onPress={() => this.props.navigation.dispatch(DrawerActions.openDrawer())}
+          onPress={this.toggleDrawer}
         >
-            <Icon type="MaterialIcons" name="account-circle" />
+
+<Icon type="MaterialIcons" name="account-circle" />
+
+          
           </Button>
         </Left> 
         <Body>
-          <Title>Events</Title>
+          <Title>Eventos</Title>
         </Body>
         <Right>
           <Button
             transparent
-            onPress={() => this.props.navigation.navigate("HomePage")}
+           
           >
+
+<TouchableOpacity  onPress={() => this.props.navigation.navigate("HomePage")}>
             <Icon type="MaterialIcons" name="home" />
+            </TouchableOpacity> 
           </Button>
+            
+         
         </Right>
       </Header>
     );
   }
 
 }
+
+
