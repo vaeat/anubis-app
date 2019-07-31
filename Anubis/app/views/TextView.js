@@ -16,7 +16,6 @@ import {
 
 } from "react-native-elements";
 
-import PageHeader from "../components/PageHeader";
 
 export default class TextView extends Component {
   static navigationOptions = {

@@ -10,19 +10,24 @@ import EvaluationView from "./EvaluationView";
 
 
 export default class NewEvaluation extends Component {
-  static navigationOptions = {
-    header: null
-  };
+    static navigationOptions = {
+
+    };
+ 
 
 
   constructor(props) {
     super(props);
     this.state = {
       locked:false,
-      //paper: this.props.item
-      //locked:this.props.locked, 
+       //to pass header props
+       isSearchBarVisible: false,
+       isHeaderVisible: true,
+       backgroundColor: "#6013b2",
+       isLoading: false, 
+       isSearchIconVisible:false
     };
-    //this.changeLocked = this.changeLocked.bind(this);
+   
   }
 
 
@@ -33,14 +38,20 @@ export default class NewEvaluation extends Component {
   render() {
     return (
       <Container>
-        <PageHeader navigation={this.props.navigation}/>
+        <PageHeader navigation={this.props.navigation} name="Nova Avaliação"    isSearchBarVisible={this.state.isSearchBarVisible}
+        isHeaderVisible={this.state.isHeaderVisible}
+        backgroundColor={this.state.backgroundColor}
+        isLoading={this.state.isLoading}
+        isSearchIconVisible={this.state.isSearchIconVisible}
+        
+      /> 
 
         <Tabs style={Platform.OS === 'android' ? { overflow: 'hidden' } : null} locked={this.state.locked}>
           <Tab heading={ <TabHeading style={{ backgroundColor: "#8f2fd8" }}><Text>Avaliação</Text></TabHeading>}>
             <EvaluationView changeLocked={this.changeLocked.bind(this)} locked={this.state.locked}  navigation={this.props.navigation} />
           </Tab>
 
-          <Tab heading={ <TabHeading style={{ backgroundColor: "#8f2fd8" }}><Text>Abstrato</Text></TabHeading>}>
+          <Tab heading={ <TabHeading style={{ backgroundColor: "#8f2fd8" }}><Text>Resumo</Text></TabHeading>}>
             <TextView navigation={this.props.navigation}/>
           </Tab>
 

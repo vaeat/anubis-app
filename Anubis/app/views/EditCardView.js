@@ -30,11 +30,13 @@ export default class EditCardView extends Component {
     super(props);
     this.state = {
       //locked: this.props.locked,
-      thumbValue: 0,
+      thumbValue: this.props.grade*10,
       minValue: 0,
       maxValue: 100, 
       switchValue:false, 
-      disabled: true
+      disabled: true, 
+      criteria: this.props.criteria,
+      index:this.props.questionIndex
     };
   }
 
@@ -42,6 +44,10 @@ onEndSlide(){
    console.log('props', this.props)
    this.props.changeLocked(false)
  
+}
+
+onSlideDone(){ 
+  this.props.onUpdateGrade(this.state.index, this.state.thumbValue/10)
 }
 
 onStartSlide(){ 
@@ -64,7 +70,7 @@ toggleSwitch = (value) => {
               <Text>Critério</Text>
           </Left>
           <Body style={{flex:3}}>
-              <Text>Originalidade e caráter inovador</Text>
+              <Text>{this.props.criteria}</Text>
           </Body>
         </CardItem>
 
@@ -91,6 +97,7 @@ toggleSwitch = (value) => {
               onValueChange={val => this.setState({ thumbValue: val})}
               onTouchStart={this.onStartSlide.bind(this)}
               onTouchEnd={this.onEndSlide.bind(this)}
+              onSlidingComplete={this.onSlideDone.bind(this)}
             />  
             <View style={styles.textCon}>
                     <Text style={styles.colorGrey}>{this.state.minValue}</Text>
