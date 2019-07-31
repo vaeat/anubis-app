@@ -90,7 +90,7 @@ onStartSlide(){
                
           </Body>
           <Right> 
-            <Text note>{this.state.thumbValue/10}/10</Text>
+            <Text note style={{ fontSize:20}}>{this.state.thumbValue/10}/10</Text>
           </Right>
         </CardItem>
       </Card>
